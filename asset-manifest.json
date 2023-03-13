@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/chatapp/static/css/main.2934d62c.css",
+    "main.js": "/chatapp/static/js/main.cfd58dc9.js",
+    "static/js/787.f055211e.chunk.js": "/chatapp/static/js/787.f055211e.chunk.js",
+    "static/media/ankit.jpg": "/chatapp/static/media/ankit.8c14b50655bb282ed00c.jpg",
+    "static/media/rohit.jpg": "/chatapp/static/media/rohit.0effcbab89ae03bb23da.jpg",
+    "index.html": "/chatapp/index.html",
+    "main.2934d62c.css.map": "/chatapp/static/css/main.2934d62c.css.map",
+    "main.cfd58dc9.js.map": "/chatapp/static/js/main.cfd58dc9.js.map",
+    "787.f055211e.chunk.js.map": "/chatapp/static/js/787.f055211e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2934d62c.css",
+    "static/js/main.cfd58dc9.js"
+  ]
+}
