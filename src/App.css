@@ -1,0 +1,332 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 860px) {
+  /* .user button {
+    position: absolute;
+    bottom: 50px;
+    left: 280px;
+    position: fixed;
+  } */
+  .box h1 {
+    font-size: 24px;
+  }
+  .img label {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .box h1 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 840px) {
+  .user button {
+    position: absolute;
+    /* bottom: 0px; */
+    top: 530px;
+    left: 140px;
+    /* position: fixed; */
+    width: 25%;
+    font-size: 5px;
+  }
+}
+body {
+  /* background-color:rgba(169, 169, 169, 0.753); */
+  background-image: url("images/whatsap.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* background: rgba(255, 23, 12, 0.8); */
+}
+.box {
+  /* border: 2px red solid; */
+  /* width: 25%; */
+  text-align: center;
+  margin: 70px auto;
+  padding: 40px 30px;
+  box-shadow: 8px 8px 8px rgba(54, 237, 26, 0.677),
+    12px 12px 18px rgb(22, 129, 6, 0.501) inset;
+  border-radius: 20px 40px;
+  /* overflow: hidden; */
+  background-color: rgba(120, 236, 120, 0.868);
+}
+.box input {
+  padding: 10px 10px;
+  margin: 5px 0px;
+  color: black;
+  border-radius: 6px;
+  width: 100%;
+}
+.box button {
+  padding: 10px 30px;
+  background-color: rgb(61, 240, 61);
+  border: none;
+  color: white;
+  border-radius: 6px;
+  width: 100%;
+  margin-bottom: 12px;
+  box-shadow: 1px 7px 4px;
+}
+.box h1 {
+  font-style: italic;
+  margin-bottom: 10px;
+  color: green;
+}
+.box p {
+  color: black;
+}
+.box p a {
+  text-decoration: none;
+  color: black;
+}
+.box p a:hover {
+  color: blue;
+}
+.img label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(21, 12, 100);
+}
+.img img {
+  width: 30px;
+  height: 30px;
+  border-radius: 12px;
+  margin-top: 2px;
+}
+.mainContainer {
+  /* background-color: darkgrey; */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px red solid; */
+}
+.container {
+  border: 2px white solid;
+  /* width: 70%; */
+  /* min-height: 80%; */
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.sidebar {
+  width: 100%;
+  /* background-color: rgb(92, 82, 82); */
+  color: white;
+  /* min-height: 20%; */
+  /* border: 2px red solid; */
+  background-image: url("./images/side.avif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: rgb(220, 211, 211);
+  padding: 19px 19px;
+}
+.user {
+  display: flex;
+  gap: 10px;
+  /* border: 2px red solid; */
+}
+.user img {
+  width: 32px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.user button {
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(13, 147, 145, 0.939);
+  color: white;
+  padding: 4px 7px;
+  font-size: 12px;
+}
+.search {
+  border-bottom: 1px rgb(250, 245, 245) solid;
+}
+.searchForm {
+  padding: 7px;
+  /* border: 2px red solid; */
+  background-image: url("./images/side.avif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.sidebox {
+  /* border: 2px green solid; */
+  overflow: auto;
+  height: 455px;
+
+  font-weight: bold;
+}
+.searchForm img {
+  width: 40px;
+  min-height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.searchForm input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+}
+.searchForm input::placeholder {
+  color: white;
+}
+.userChat {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+.userChat:hover {
+  background-color: rgba(200, 246, 193, 0.125);
+  cursor: pointer;
+}
+.userChatInfo span {
+  font-size: 20px;
+}
+.userChatInfo p {
+  font-size: 10px;
+}
+.chatbox {
+  border-radius: 18px;
+}
+.chatbox span {
+  font-size: 23px;
+  color: white;
+  margin-left: 10px;
+}
+
+.chatinfo {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px red solid; */
+  width: 100%;
+  min-height: 46px;
+  background-image: url("./images/side.avif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.chaticon {
+  display: flex;
+  justify-content: end;
+  gap: 6px;
+}
+.chaticon img {
+  width: 20%;
+  border-radius: 90%;
+  height: 28px;
+}
+.messageArea {
+  /* background-color: rgba(255, 255, 255, 0.711); */
+  padding: 12px;
+  overflow: auto;
+  height: 480px;
+  /* border: 2px red solid; */
+  background-image: url("./images/side.avif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.Contact img {
+  width: 30px;
+  border-radius: 12px;
+}
+
+.msgReceiver {
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+}
+.msgReceiver span {
+  font-size: 14px;
+  color: white;
+}
+
+.msg {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.msgReceiver img {
+  width: 30px;
+  height: 30px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.msgSender {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.msgSender p {
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+  padding: 10px;
+  border-radius: 25px 3px;
+  max-width: max-content;
+}
+.msgSender img {
+  width: 300px;
+  height: 200px;
+  /* border-radius: 12px; */
+  object-fit: cover;
+}
+.owner {
+  flex-direction: row-reverse;
+}
+.owner p {
+  background-color: black;
+  color: white;
+  border-radius: 3px 15px;
+}
+.input {
+  background-color: white;
+  height: 40px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.input img {
+  height: 30px;
+}
+.ht {
+  height: 400px;
+  margin: 120px auto;
+}
+.input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 17px;
+  /* background-color: red; */
+}
+.send {
+  display: flex;
+  gap: 10px;
+}
+.send button {
+  margin-top: 3px;
+  height: 24px;
+  padding: 1px 5px;
+  border-radius: 2px;
+  border: none;
+  background-color: gray;
+  color: white;
+}
