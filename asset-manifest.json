@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/chatapp/static/css/main.f1059051.css",
-    "main.js": "/chatapp/static/js/main.fb5bbb60.js",
+    "main.css": "/chatapp/static/css/main.7d07aa35.css",
+    "main.js": "/chatapp/static/js/main.15e9625a.js",
     "static/js/787.f055211e.chunk.js": "/chatapp/static/js/787.f055211e.chunk.js",
+    "static/media/side.avif": "/chatapp/static/media/side.dcf5a335174bea09f975.avif",
     "static/media/ankit.jpg": "/chatapp/static/media/ankit.8c14b50655bb282ed00c.jpg",
     "static/media/whatsap.jpg": "/chatapp/static/media/whatsap.31cc86791fb366734e17.jpg",
     "index.html": "/chatapp/index.html",
-    "main.f1059051.css.map": "/chatapp/static/css/main.f1059051.css.map",
-    "main.fb5bbb60.js.map": "/chatapp/static/js/main.fb5bbb60.js.map",
+    "main.7d07aa35.css.map": "/chatapp/static/css/main.7d07aa35.css.map",
+    "main.15e9625a.js.map": "/chatapp/static/js/main.15e9625a.js.map",
     "787.f055211e.chunk.js.map": "/chatapp/static/js/787.f055211e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1059051.css",
-    "static/js/main.fb5bbb60.js"
+    "static/css/main.7d07aa35.css",
+    "static/js/main.15e9625a.js"
   ]
 }
